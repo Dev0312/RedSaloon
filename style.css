@@ -99,6 +99,7 @@ nav ul li a{
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
+    background: #009688;
      
 }
 #menuBtn img{
@@ -188,4 +189,33 @@ nav ul li a{
  display: flex;
  align-items: center;
  margin-bottom: 40px;   
+}
+.features-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #009688;
+    border: 1px solid #009688;
+}
+.features-text p{
+    padding: 0 20px;
+    text-align: initial;
+    font-size: 13px;
+}
+
+@media screen and (max-width:770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+    .feartures{
+        flex-basis: 100%;
+    }
+    .feartures-img{
+        flex-basis: 100%;
+    }
+    .feartures-img img{
+        width: 100%;
+    }
 }
