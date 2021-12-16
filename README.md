@@ -1,2 +1,2 @@
 # RedSaloon
-This is a static website of a sloon 
+This is a static website of a saloon 
